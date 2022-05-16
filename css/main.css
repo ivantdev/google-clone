@@ -123,6 +123,7 @@ main .main-input input {
     height: 40px;
     border: none;
     outline: none;
+    font-size: 1.6rem;
 }
 
 main .main-input-container:hover {
@@ -156,4 +157,21 @@ main .main-buttons {
 
 main .main-buttons div {
     display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+main .main-buttons button:hover {
+    box-shadow: 0 1px 4px 0 #5f6368;
+    border: 1px solid #c6c6c6;
 }
